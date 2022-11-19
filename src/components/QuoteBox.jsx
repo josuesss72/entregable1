@@ -1,5 +1,5 @@
 import React from 'react' 
-import {FaQuoteLeft} from "react-icons/fa"
+// import {FaQuoteLeft} from "react-icons/fa"
 
 const QuoteBox = ({handleClick, quoteRandom, textColor, objBgColor}) => {
 
@@ -11,7 +11,7 @@ const QuoteBox = ({handleClick, quoteRandom, textColor, objBgColor}) => {
     <div className='box_quote'>
         <div className='box_paragraph'>
           <div className='box_icon_quote'>
-            <FaQuoteLeft className='icon_quote' color={textColor}/>
+            {/* <FaQuoteLeft className='icon_quote' color={textColor}/> */}
           </div>
           <p style={objStyle}>{quoteRandom.quote}</p>
         </div>
